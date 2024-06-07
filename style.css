@@ -940,22 +940,25 @@ footer{
         flex-direction: column;
     }
     .section-one-text{
-        width: 90%;
-        padding: 10px;
-        height: 50%;
+        width: 100%;
+        height: 60%;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
     }
     .section-one-text h1{
         font-size: 30px;
+        text-align: center;
     }
     .section-one-image{
-        height: 50%;
+        height: 40%;
         width: 100%;
     }
     .section-one-image img{
         object-fit: contain;
-        width: 80%;
+        width: 90%;
         height: 100%;
-        margin-bottom: 0px;
+        margin-bottom: -80px;
         position: absolute;
     }
     .section-2-two{
