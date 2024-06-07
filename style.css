@@ -3,7 +3,7 @@
     height: 100px;
     background-color: black;
     border-bottom: 1px solid white;
-    display: flex;
+    display: none;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -73,22 +73,36 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
+    background: transparent;
+}
+.navbar-section-two-logo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-section-two-logo img{
+    width: auto;
+    height: 100%;
+    object-fit: contain;
 }
 .navbar-section-two-links{
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 20px;
     height: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .navbar-section-two-links a{
     text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
+    color: #123445;
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: 650;
+    text-transform: uppercase;
 }
 .navbar-section-two-search{
     width: 25%;
@@ -156,11 +170,13 @@
  /* <--------------------------------end-of-navbar--------------------> */
 .home-section-one{
     width: 100%;
-    height: 80vh;
-    background-image: url(img/sab-bg-2.jpg);
+    height: 120vh;
+    background-image: url(img/sab-bg-5.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    background-position: center;
+    /* background-attachment: fixed; */
     display: flex;
+    margin-top: -80px;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -168,11 +184,11 @@
 .home-section-one h1{
     color: white;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 80px;
 }
 .section-one-text{
-    width: 40%;
-    padding-left: 3%;
+    width: 70%;
+    padding-left: 2%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -202,7 +218,9 @@
 .home-section-2{
     width: 100%;
     height: auto;
-    background-color: #1c1c1c;
+    /* background-color: #1c1c1c; */
+    background-image:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)), url(img/sab-bg-4.jpg);
+    background-size: cover;
 }
 .section-2-one{
     width: 100%;
@@ -232,7 +250,7 @@
 }
 .section-2-one a{
     text-decoration: none;
-    color: #FF5208;
+    color: white;
     font-weight: 650;
     font-size: 20px;
 }
@@ -242,7 +260,7 @@
 .section-2-cards{
     width: 180px;
     height: 200px;
-    background-color: #161616;
+    background-color: #4F677B;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -257,13 +275,13 @@
     font-size: 20px;
 }
 .section-2-cards i{
-    color: #FF5208;
+    color: white;
     font-size: 15px;
 }
 .section-3-cards{
     width: 100%;
     height: 400px;
-    background-color: #1c1c1c;
+    background-color: #4F677B;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -282,17 +300,18 @@
 }
 .section-3-cards a{
     text-decoration: none;
-    color: #FF5208;
+    color: white;
 }
 .section-3-cards a i{
     margin-left: 10px;
 }
 .section-3-cards i{
-    color: #FF5208;
+    color: white;
     font-size: 15px;
 }
 .home-section-3{
-    background-image: url(img/sab-bg-2.jpg);
+    background-image: url(img/sab-bg-6.jpg);
+    background-size: cover;
     background-attachment: fixed;
 }
 .section-3-text{
@@ -308,7 +327,7 @@
     font-size: 55px;
 }
 .section-3-text p{
-    color: rgb(181, 181, 181);
+    color: white;
 }
 .section-3-text h5{
     color: rgb(181, 181, 181);
@@ -321,7 +340,7 @@
 }
 .section-3-text a{
     text-decoration: none;
-    color: #FF5208;
+    color: white;
     font-size: 18px;
 }
 .section-3-text a i{
@@ -329,10 +348,10 @@
 }
 .section-3-text span i{
     margin-right: 10px;
-    color: #FF5208;
+    color: white;
 }
 .home-section-4{
-background-color: #1c1c1c;
+background-color: #4F677B;
 }
 .home-section-4 h1{
     color: white;
@@ -346,7 +365,7 @@ background-color: #1c1c1c;
     text-align: center;
 }
 .home-section-4 h5{
-    color: #FF5208;
+    color: white;
     text-align: center;
 }
 .section-4-card{
@@ -360,7 +379,7 @@ background-color: #1c1c1c;
     object-fit: cover;
 }
 .section-4-card-overlay{
-    background: linear-gradient(to top, #FF5208 20%, transparent 45%);
+    background: linear-gradient(to top, #3e4d5a 20%, transparent 45%);
     position: absolute;
     height: 100%;
     width: 100%;
@@ -381,7 +400,9 @@ background-color: #1c1c1c;
     font-size:25px;
 }
 .home-section-5{
-    background-color: black;
+    background-image: url(img/sab-bg-4.jpg);
+    background-position: center;
+    background-size: cover;
     width: 100%;
     height: auto;
 }
@@ -489,10 +510,10 @@ background-color: #1c1c1c;
 .home-section-6{
     width: 100%;
     height: auto;
-    background-color: #1c1c1c;
+    background-color: #4F677B;
 }
 .home-section-6 h5{
-    color: #FF5208;
+    color: white;
     text-align: center;
 }
 .home-section-6 h1{
@@ -509,7 +530,7 @@ background-color: #1c1c1c;
 .section-6-cards{
     width: 100%;
     height: 300px;
-    background-color: #161616;
+    background-color: #3e4d5a;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -527,7 +548,7 @@ background-color: #1c1c1c;
     color: rgb(181, 181, 181);
 }
 .section-6-cards i{
-    color: #FF5208;
+    color: white;
     font-size: 15px;
 }
 .home-section-7{
@@ -536,15 +557,16 @@ background-color: #1c1c1c;
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-image: url(img/sab-bg-2.jpg);
+    background-image: url(img/sab-bg-5.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     height: 100vh;
 }
 .section-7-1{
     width: 100%;
     height: 20vh;
-    background-color: #161616;
+    background-color: #3e4d5a;
 }
 .section-7-2{
     height: 60vh;
@@ -566,7 +588,7 @@ background-color: #1c1c1c;
 .section-7-2-image{
     width: 45%;
     height: 100%;
-    background-image: url(img/orange.png);
+    background-image: url(img/maroon.png);
     background-size: cover;
 }
 .section-7-2-image-img{
@@ -603,14 +625,18 @@ background-color: #1c1c1c;
 }
 .section-7-2-text form button{
     width: 20%;
-    background-color: #FF5208;
+    background-color: #4F677B;
     color: white;
     border: hidden;
     outline: none;
     height: 45px;
 }
 footer{
-    background-color: #161616;
+    background-color: #4F677B;
+}
+footer a:hover{
+    color: white;
+
 }
 .footer-section-1{
     width: 100%;
@@ -635,7 +661,7 @@ footer{
     justify-content: space-evenly;
 }
 .footer-section-2 h3{
-    color: #FF5208;
+    color: white;
     font-size: 20px;
 }
 .footer-section-2 a{
@@ -646,7 +672,7 @@ footer{
 }
 .footer-section-2 span{
     font-size: 12px;
-    color: #FF5208;
+    color: rgb(177, 176, 176);
 }
 .footer-section-3{
     width: 100%;
@@ -668,7 +694,7 @@ footer{
 }
 .footer-section-3 i{
     color: white;
-    background-color: #494949;
+    background-color: #3e4d5a;
     height: 100%;
     width: 40px;
     display: flex;
@@ -676,7 +702,7 @@ footer{
     justify-content: center;
 }
 .footer-section-3 h3{
-    color: #FF5208;
+    color: white;
     font-size: 20px;
 }
 .footer-section-3 span{
@@ -687,7 +713,7 @@ footer{
 .footer-base{
     width: 100%;
     height: 60px;
-    background-color: #161616;
+    background-color: #4F677B;
     border-top: 1px solid gray;
     display: flex;
     flex-direction: row;
@@ -928,6 +954,64 @@ footer{
     color: white;
     margin-left: 10px;
 }
+/* ---------------------------about--------------------------------- */
+.about-section-1{
+    height: auto;
+    width: 100%;
+    background-color: #1c1c1c;
+}
+.about-section-1 h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.about-section-1 h5{
+    color: #FF5208;
+    text-align: center;
+
+}
+.team-cards{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    transition: 0.4s ease;
+}
+.team-cards img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.team-card-overlay{
+    background: linear-gradient(to top, #3a3a3a 15%, transparent 60%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    justify-content: flex-end;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.team-card-overlay h3{
+    font-size: 18px;
+    color: white;
+}
+.team-card-overlay span{
+    color: #FF5208;
+    font-size: 16px;
+}
+.team-cards:hover .team-card-overlay{
+    background: linear-gradient(to top, #FF5208 15%, transparent 60%);
+}
+.team-cards:hover .team-card-overlay span{
+    color: black;
+}
 @media(min-width:320px) and (max-width:480px){
     .navbar-section-one{
         display: none;
@@ -936,7 +1020,10 @@ footer{
         display: none;
     }
     .home-section-one{
-        height: 50vh;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
     }
     .section-one-text{
@@ -1061,7 +1148,7 @@ footer{
         border: hidden;
     }
     .navbar-mobile-button button i{
-        color: #FF5208;
+        color: #4F677B;
         font-size: 25px;
     }
     .sidebar {
@@ -1070,7 +1157,7 @@ footer{
         left: -300px; 
         width: 300px;
         height: 100%;
-        background-color: #2b2b2b;
+        background-color: #4F677B;
         color: white;
         padding: 20px;
         display: flex;
@@ -1105,7 +1192,7 @@ footer{
         height: 60px;
     }
     .sidebar-links a{
-        color: #FF5208;
+        color: white;
         background-color: white;
         text-decoration: none;
         height: 30px;
@@ -1114,6 +1201,9 @@ footer{
         align-items: center;
         justify-content: center;
         margin-right: 10px;
+    }
+    .sidebar-links a i{
+        color: #4F677B;
     }
     .sidebar-links-2{
         display: flex;
@@ -1144,7 +1234,7 @@ footer{
     }
     .sidebar-links-3 a i{
         margin-right: 8px;
-        color: #FF5208;
+        color: white;
     }
     .blog-section-h1{
         font-size: 25px;
@@ -1167,6 +1257,10 @@ footer{
     }
     .page-section-main p{
         text-align: center;
+        width: 90%;
+    }
+    .about-section-1 h1{
+        font-size: 30px;
         width: 90%;
     }
 }
