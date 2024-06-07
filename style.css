@@ -156,7 +156,7 @@
  /* <--------------------------------end-of-navbar--------------------> */
 .home-section-one{
     width: 100%;
-    height: auto;
+    height: 80vh;
     background-image: url(img/sab-bg-2.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -168,22 +168,33 @@
 .home-section-one h1{
     color: white;
     font-weight: 700;
-    font-size: 80px;
-}
-.home-section-one img{
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
-    position: relative;
-    z-index: 2;
+    font-size: 70px;
 }
 .section-one-text{
-    position: absolute;
+    width: 40%;
+    padding-left: 3%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /* position: absolute; */
     z-index: 2;
 }
+.section-one-image{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-one-image img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: -200px;
+    object-fit: cover;
+}
 .section-one-back{
-    position: absolute;
+    /* position: absolute; */
     z-index: 1;
+    display: none;
 }
 .section-one-back img{
     height: 100%;
@@ -694,6 +705,229 @@ footer{
 .navbar-section-mobile{
     display: none;
 }
+/* <-------------------------------------------------blogs-----------------------------------> */
+.page-title{
+    width: 100%;
+    height: 220px;
+    background-image: url(img/sab-bg-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page-title h1{
+    color: white;
+    font-weight: 650;
+    text-align: center;
+}
+.page-title a{
+    text-decoration: none;
+    color: #FF5208;
+}
+.page-title span i{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+}
+.page-title span{
+    color: white;
+}
+.blog-section-1{
+    background-color: #161616;
+    width: 100%;
+    height: auto;
+}
+.blog-section-h1{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.blog-section-h5{
+    color: #FF5208;
+    text-align: center;
+}
+.blog-section-p{
+    color: white;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+.blogs-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.blogs-cards-image{
+    width: 100%;
+    height: 350px;
+}
+.blogs-cards-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blogs-cards-text{
+    width: 100%;
+    height: 320px;
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.blogs-cards-text h1{
+    color: white;
+    font-size: 25px;
+}
+.blogs-cards-text span{
+    color: rgb(216, 216, 216);
+    font-size: 16px;
+}
+.blogs-cards-text p{
+    color: rgb(181, 181, 181);
+    font-size: 14px;
+}
+.blogs-cards-text a{
+    text-decoration: none;
+    color: #FF5208;
+    font-size: 18px;
+}
+/* <------------------------------services----------------------------------> */
+.service-section-1{
+    height: auto;
+    background-color: #1c1c1c;
+    width: 100%;
+
+}
+.service-section-image{
+    width: 100%;
+    height: 300px;
+}
+.service-section-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.service-section-list{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #161616;
+}
+.our-services{
+    color: white;
+    font-size: 30px;
+}
+.service-a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: white;
+}
+.service-a i{
+    margin-right: 15px;
+    color: #FF5208;
+}
+.explore-more-service{
+    color: #FF5208;
+    font-size: 25px;
+    text-align: center;
+}
+.service-section-list h3{
+    color: white;
+    font-size: 18px;
+    margin: auto;
+}
+.Brochure-download{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    border-bottom: 4px solid #FF5208;
+}
+.Brochure-download i{
+    margin-left: 10px;
+}
+.service-section-para{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.service-section-para h1{
+    color: white;
+    font-size: 25px;
+}
+.service-section-para p{
+    color: rgb(181, 181, 181);
+}
+.service-section-para a{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.service-section-para a i{
+    margin-right: 10px;
+    color: #FF5208;
+}
+/* <------------------------------page-not-found----------------------------------> */
+.page-section-main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/sab-bg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page-section-main h1{
+    color: white;
+    font-size: 150px;
+    font-weight: 700;
+}
+.page-section-main h3{
+    font-size: 50px;
+    color: #FF5208;
+}
+.page-section-main p{
+    width: 70%;
+    color: rgb(181, 181, 181);
+}
+.page-section-main a{
+    width: 150px;
+    height: 40px;
+    border-bottom: 4px solid #FF5208;
+    font-weight: 600;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+.page-section-main a i{
+    color: white;
+    margin-left: 10px;
+}
 @media(min-width:320px) and (max-width:480px){
     .navbar-section-one{
         display: none;
@@ -703,18 +937,26 @@ footer{
     }
     .home-section-one{
         height: 50vh;
+        flex-direction: column;
     }
     .section-one-text{
+        width: 90%;
         padding: 10px;
-        z-index: 2;
+        height: 50%;
     }
-    .section-one-back{
-        display: none;
+    .section-one-text h1{
+        font-size: 30px;
     }
-    .home-section-one img{
-        z-index: 1;
+    .section-one-image{
+        height: 50%;
+        width: 100%;
+    }
+    .section-one-image img{
         object-fit: contain;
-        bottom: -100px;
+        width: 80%;
+        height: 100%;
+        margin-bottom: 0px;
+        position: absolute;
     }
     .section-2-two{
         height: auto;
@@ -783,9 +1025,6 @@ footer{
     }
     .section-2-one h1{
         font-size: 30px;
-    }
-    .section-one-text h1{
-        font-size: 35px;
     }
     .navbar-section-mobile{
         height: 70px;
@@ -903,6 +1142,29 @@ footer{
     .sidebar-links-3 a i{
         margin-right: 8px;
         color: #FF5208;
+    }
+    .blog-section-h1{
+        font-size: 25px;
+        width: 90%;
+    }
+    .blog-section-p{
+        width: 90%;
+    }
+    .blogs-cards-image{
+        height: 250px;
+    }
+    .page-section-main{
+        height: 80vh;
+    }
+    .page-section-main h1{
+        font-size: 60px;
+    }
+    .page-section-main h3{
+        font-size: 30px;
+    }
+    .page-section-main p{
+        text-align: center;
+        width: 90%;
     }
 }
 
