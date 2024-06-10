@@ -397,7 +397,7 @@ background-color: #4F677B;
     justify-content: flex-end;
 }
 .section-4-card-overlay h3{
-    color: black;
+    color: rgb(181, 181, 181);
     font-size: 20px;
 }
 .section-4-card-overlay h2{
