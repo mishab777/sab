@@ -593,7 +593,7 @@ background-color: #4F677B;
 .section-7-2-image{
     width: 45%;
     height: 100%;
-    background-image: url(img/maroon.png);
+    /* background-image: url(img/maroon.png); */
     background-size: cover;
 }
 .section-7-2-image-img{
