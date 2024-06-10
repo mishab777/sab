@@ -91,7 +91,7 @@ h1{
 }
 .navbar-section-two-logo img{
     width: auto;
-    height: 100%;
+    height:80%;
     object-fit: contain;
 }
 .navbar-section-two-links{
@@ -317,7 +317,7 @@ h1{
 .home-section-3{
     background-image: url(img/sab-bg-6.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 .section-3-text{
     width: 100%;
@@ -335,7 +335,7 @@ h1{
     color: white;
 }
 .section-3-text h5{
-    color: rgb(181, 181, 181);
+    color: white;
 }
 .section-3-text span{
     color: white;
@@ -1150,7 +1150,7 @@ footer a:hover{
         display: flex;
     }
     .navbar-mobile-logo{
-        width: 40%;
+        width: 50%;
         height: 100%;
         display: flex;
         align-items: center;
@@ -1158,7 +1158,7 @@ footer a:hover{
     }
     .navbar-mobile-logo img{
         width: auto;
-        height: 100%;
+        height: 80%;
         object-fit: contain;
     }
     .navbar-mobile-button{
